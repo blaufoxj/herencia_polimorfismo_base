@@ -20,6 +20,10 @@ Quiero que se me cree un auto con cilindrada = 10, combustible = 2, kilometraje 
 
 int main(int argc, char *argv[])
 {
+    cout << "Ingresaste " << argc << " argumentos:" << "\n";
+    for (int i = 0; i < argc; ++i)
+    cout << argv[i] << "\n";
+
     Auto* automovil = new Auto(10.0f,2.0f,3.0f);
     cout << automovil->valorMercado() << endl;
     cout << automovil->coeficienteImpositivo() << endl;

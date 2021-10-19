@@ -13,5 +13,5 @@ Camion::Camion(float cilindrada, float combustible, float kilometraje):Vehiculo(
 float Camion::valorMercado()
 {
     return ( this->coeficienteImpositivo() * this->precioBase ) /
-            ( ( this->kilometraje + this->cilindrada + this->combustible ) * 0.002 );
+            ( ( this->kilometraje + this->cilindrada + this->combustible ) * 0.002f );
 }

@@ -11,6 +11,7 @@ class Camioneta: public Vehiculo
 {
 public:
     Camioneta(float cilindrada, float combustible, float kilometraje);
+    ~Camioneta(){};
 
     float valorMercado();
 };

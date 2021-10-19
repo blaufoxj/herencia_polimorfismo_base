@@ -13,5 +13,5 @@ Camioneta::Camioneta(float cilindrada, float combustible, float kilometraje):Veh
 float Camioneta::valorMercado()
 {
     return 3 * ( this->coeficienteImpositivo() * this->precioBase ) /
-                (( this->kilometraje + this->cilindrada ) * 0.003);
+                (( this->kilometraje + this->cilindrada ) * 0.003f);
 }

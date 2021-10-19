@@ -16,6 +16,7 @@ protected:
 
 public:
     Vehiculo(float cilindrada, float combustible, float kilometraje);
+    virtual ~Vehiculo(){};
 
     virtual float valorMercado() = 0;
 
